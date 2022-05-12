@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="207.0" style="-fx-background-color: fed700;">
+         <children>
+            <ImageView fitHeight="166.0" fitWidth="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="28.0" layoutY="172.0" text="CLIENT MENU">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="259.0" text="Contact Support">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="283.0" text="+359 555 - 5555">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label id="lb_egn" alignment="CENTER" layoutX="24.0" layoutY="214.0" prefHeight="18.0" prefWidth="166.0" text="EGN" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <ImageView fitHeight="84.0" fitWidth="73.0" layoutX="159.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled1.png" />
+               </image>
+            </ImageView>
+            <Button id="bt_bills_admin_client" layoutX="113.0" layoutY="122.0" mnemonicParsing="false" text="CLIENT BILLS">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="bt_update_admin_client" layoutX="112.0" layoutY="182.0" mnemonicParsing="false" text="UPDATE INFO">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="bt_delete_admin_client" layoutX="102.0" layoutY="244.0" mnemonicParsing="false" text="DELETE CLIENT">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="bt_back_admin_client_menu" layoutX="250.0" layoutY="350.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="121.0" text="BACK">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

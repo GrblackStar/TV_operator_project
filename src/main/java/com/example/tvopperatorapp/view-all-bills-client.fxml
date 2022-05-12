@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tvopperatorapp.ViewAllBillsClientController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="120.0" style="-fx-background-color: fed700;">
+         <children>
+            <Button id="bt_back_view_all_bills_client" layoutX="26.0" layoutY="114.0" mnemonicParsing="false" text="BACK">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button id="bt_logout_view_all_bills_client" layoutX="10.0" layoutY="216.0" mnemonicParsing="false" text="LOG OUT">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <TableView id="tv_table_view_all_bills_client" layoutX="130.0" layoutY="31.0" prefHeight="358.0" prefWidth="462.0">
+        <columns>
+          <TableColumn id="col_number_view_all_bills_client" prefWidth="74.60003662109375" text="NUMBER" />
+          <TableColumn id="col_date_view_all_bills_client" minWidth="0.0" prefWidth="113.00001525878906" text="DATE" />
+            <TableColumn id="col_price_view_all_bills_client" minWidth="0.0" prefWidth="121.4000244140625" text="PRICE" />
+            <TableColumn id="col_status_view_all_bills_client" prefWidth="147.4000244140625" text="STATUS" />
+        </columns>
+      </TableView>
+      <Label layoutX="128.0" layoutY="5.0" prefHeight="20.0" prefWidth="194.0" text="username" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="141.0" style="-fx-background-color: FED700;">
+         <children>
+            <ImageView fitHeight="120.0" fitWidth="135.0" layoutX="3.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled.png" />
+               </image>
+            </ImageView>
+            <Button id="bt_update" layoutX="13.0" layoutY="200.0" mnemonicParsing="false" text="UPDATE INFO">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button id="bt_cancel" layoutX="13.0" layoutY="299.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="120.0" text="CANCEL">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="459.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="CLIENT'S EGN:">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label id="lb_egn" layoutX="154.0" layoutY="10.0" prefHeight="27.0" prefWidth="293.0" style="-fx-background-color: FED700;">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="49.0" text="ENTER NEW:" textFill="#1d11cc" underline="true">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="80.0" text="NAME">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="120.0" text="USERNAME">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="158.0" text="PHONE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="200.0" text="ADDRESS">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="263.0" text="OLD INFORMATATION" textFill="#3d0fd4" underline="true">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField id="tf_name" layoutX="153.0" layoutY="77.0" prefHeight="26.0" prefWidth="294.0" />
+            <TextField id="tf_username" layoutX="153.0" layoutY="117.0" prefHeight="26.0" prefWidth="294.0" />
+            <TextField id="tf_phone" layoutX="153.0" layoutY="155.0" prefHeight="26.0" prefWidth="294.0" />
+            <TextField id="tf_address" layoutX="153.0" layoutY="197.0" prefHeight="26.0" prefWidth="294.0" />
+            <TableView id="tv_old_info_client" layoutX="6.0" layoutY="288.0" prefHeight="95.0" prefWidth="447.0">
+              <columns>
+                <TableColumn id="col_name" prefWidth="127.199960231781" text="NAME" />
+                <TableColumn id="col_username" prefWidth="84.0" text="USERNAME" />
+                  <TableColumn id="col_phone" prefWidth="80.79998779296875" text="PHONE" />
+                  <TableColumn id="col_address" prefWidth="156.5999755859375" text="ADDRESS" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

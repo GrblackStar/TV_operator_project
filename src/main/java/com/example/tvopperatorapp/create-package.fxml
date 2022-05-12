@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: fed700;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="19.0" layoutY="208.0" text="Contact Support">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="250.0" text="+359 555 - 5555">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button id="bt_back" layoutX="18.0" layoutY="317.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="161.0" text="BACK">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="403.0">
+         <children>
+            <ImageView fitHeight="84.0" fitWidth="89.0" layoutX="159.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="101.0" layoutY="126.0" text="NAME OF PACKAGE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button id="bt_add" layoutX="93.0" layoutY="274.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="214.0" text="ADD CHANNELS">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <TextField id="tf_name" layoutX="111.0" layoutY="168.0" prefHeight="38.0" prefWidth="177.0" />
+         </children></AnchorPane>
+   </children>
+</HBox>

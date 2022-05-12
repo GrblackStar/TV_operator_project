@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tvopperatorapp.PayBillClientController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="185.0" style="-fx-background-color: FED700;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-2.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled.png" />
+               </image>
+            </ImageView>
+            <Button id="bt_back_pay_bill_client" layoutX="43.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="99.0" text="BACK">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button id="bt_logout_pay_bill_client" layoutX="43.0" layoutY="277.0" mnemonicParsing="false" text="LOG OUT">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button id="bt_pay_pay_bill_client" layoutX="300.0" layoutY="339.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="216.0" text="MAKE PAYMENT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ChoiceBox id="cb_bill_pay_bill_client" layoutX="204.0" layoutY="131.0" prefHeight="33.0" prefWidth="190.0" />
+      <Label layoutX="204.0" layoutY="94.0" text="CHOOSE A BILL TO PAY">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="209.0" text="CREDIT OR DEBIT CARD NUMBER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField id="tf_card_pay_bill_client" layoutX="205.0" layoutY="243.0" prefHeight="40.0" prefWidth="188.0" style="-fx-background-color: FED700;" />
+      <Label id="lb_username" layoutX="206.0" layoutY="14.0" prefHeight="26.0" prefWidth="225.0" text="username">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="439.0" layoutY="250.0" text="5 DIGIT NUMBER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

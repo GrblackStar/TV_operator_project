@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: fed700;">
+         <children>
+            <ImageView fitHeight="157.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="22.0" layoutY="179.0" text="ADD PAYMENT">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="19.0" layoutY="267.0" text="Contact Support">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="19.0" layoutY="291.0" text="+359 555 - 5555">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label id="lb_egn" alignment="CENTER" layoutX="23.0" layoutY="212.0" prefHeight="23.0" prefWidth="154.0" text="egn" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <ImageView fitHeight="82.0" fitWidth="102.0" layoutX="160.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="37.0" layoutY="145.0" text="DATE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <ChoiceBox id="cb_date_add_payment" layoutX="119.0" layoutY="141.0" prefHeight="31.0" prefWidth="161.0" />
+            <Button id="bt_confirm_add_payment" layoutX="106.0" layoutY="200.0" mnemonicParsing="false" style="-fx-background-color: FED700;" text="CONFIRM PAYMENT">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="327.0" layoutY="346.0" mnemonicParsing="false" text="EXIT">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tvopperatorapp.ViewPlansClientController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="113.0" style="-fx-background-color: fed700;">
+         <children>
+            <Button id="bt_back_plans_client" layoutX="11.0" layoutY="95.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="99.0" text="BACK">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button id="bt_logout_plans_client" layoutX="11.0" layoutY="206.0" mnemonicParsing="false" text="LOG OUT">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="120.0" layoutY="33.0" text="YOUR PLAN" textFill="#3b0ce7" underline="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="168.0" text="ALL PLANS" textFill="#3b0ce7" underline="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Label>
+      <TableView id="tv_all_plans_client" layoutX="122.0" layoutY="186.0" prefHeight="210.0" prefWidth="472.0">
+         <columns>
+            <TableColumn id="col_all_name_plans_client" prefWidth="93.20001220703125" text="NAME" />
+            <TableColumn id="col_all_price_plans_client" prefWidth="57.20001220703125" text="PRICE" />
+            <TableColumn id="col_all_channels_plans_client" prefWidth="320.79998779296875" text="CHANNELS" />
+         </columns>
+      </TableView>
+      <TableView id="tv_your_plans_client" layoutX="122.0" layoutY="51.0" prefHeight="110.0" prefWidth="472.0">
+         <columns>
+            <TableColumn id="col_your_name_plans_client" prefWidth="93.20001220703125" text="NAME" />
+            <TableColumn id="col_your_price_plans_client" prefWidth="57.20001220703125" text="PRICE" />
+            <TableColumn id="col_your_channels_plans_client" prefWidth="320.79998779296875" text="CHANNELS" />
+         </columns>
+      </TableView>
+      <Label id="lb_username" layoutX="124.0" layoutY="4.0" prefHeight="26.0" prefWidth="211.0" text="username" />
+   </children>
+</AnchorPane>

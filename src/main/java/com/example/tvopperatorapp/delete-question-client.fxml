@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: FED700;">
+         <children>
+            <ImageView fitHeight="161.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="21.0" layoutY="213.0" text="Contact Support">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="256.0" text="+359 555 - 5555">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="402.0">
+         <children>
+            <ImageView fitHeight="90.0" fitWidth="84.0" layoutX="156.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="38.0" layoutY="143.0" text="ARE YOU SURE YOU WANT">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="83.0" layoutY="179.0" text="TO DELETE CLIENT">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="157.0" layoutY="220.0" text="WITH EGN:">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label id="lb_egn" layoutX="117.0" layoutY="258.0" prefHeight="36.0" prefWidth="161.0" style="-fx-background-color: FED700;">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button id="bt_yes_delete_client" layoutX="24.0" layoutY="337.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="118.0" text="YES">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button id="bt_no_delete_client" layoutX="254.0" layoutY="337.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="117.0" text="NO">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

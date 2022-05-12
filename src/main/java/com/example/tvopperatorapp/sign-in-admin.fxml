@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: FED700;">
+         <children>
+            <ImageView fitHeight="158.0" fitWidth="207.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled.png" />
+               </image></ImageView>
+            <Label layoutX="44.0" layoutY="184.0" text="SIGN  IN">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="27.0" />
+               </font></Label>
+            <Label layoutX="62.0" layoutY="216.0" text="ADMIN">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="273.0" text="Contact Support">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="309.0" text="+359 555 - 5555">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font></Label>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <ImageView fitHeight="117.0" fitWidth="99.0" layoutX="151.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled1.png" />
+               </image></ImageView>
+            <Label layoutX="13.0" layoutY="200.0" text="PASSWORD">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font></Label>
+            <Label layoutX="14.0" layoutY="139.0" text="USERNAME">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font></Label>
+            <Label layoutX="14.0" layoutY="258.0" text="AUTHENTICATION CODE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font></Label>
+            <Button layoutX="250.0" layoutY="352.0" mnemonicParsing="false" text="OK">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button id="bt_back_sign_in_admin" layoutX="84.0" layoutY="352.0" mnemonicParsing="false" text="BACK">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Button>
+            <TextField id="tf_username_admin" layoutX="177.0" layoutY="135.0" prefHeight="32.0" prefWidth="169.0" />
+            <TextField id="tf_password_admin" layoutX="177.0" layoutY="196.0" prefHeight="32.0" prefWidth="169.0" />
+            <TextField id="tf_authcode_admin" layoutX="276.0" layoutY="254.0" prefHeight="32.0" prefWidth="99.0" />
+         </children></AnchorPane>
+   </children>
+</HBox>

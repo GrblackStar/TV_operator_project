@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="218.0" style="-fx-background-color: FED700;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="71.0" layoutY="172.0" text="NEW">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="210.0" text="CLIENT CONTRACT">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="267.0" text="Contact Support">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="299.0" text="+359 555 - 5555">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="409.0">
+         <children>
+            <Label layoutX="11.0" layoutY="23.0" text="FIRST NAME">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="62.0" text="LAST NAME">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="95.0" text="EGN">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="132.0" text="ADDRESS">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="200.0" text="PACKAGE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="247.0" text="DURATION OF CONTRACT">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox id="cb_package_client_contract" layoutX="220.0" layoutY="198.0" prefWidth="150.0" />
+            <TextField id="tf_first_name_client_contract" layoutX="221.0" layoutY="22.0" />
+            <TextField id="tf_last_name_client_contract" layoutX="221.0" layoutY="60.0" />
+            <TextField id="tf_egn_client_contract" layoutX="221.0" layoutY="93.0" />
+            <TextField id="tf_address_client_contract" layoutX="220.0" layoutY="130.0" />
+            <Button id="bt_ok_client_contract" layoutX="242.0" layoutY="343.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" text="OK">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button id="bt_cancel_client_contract" layoutX="45.0" layoutY="343.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="128.0" text="CANCEL">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <RadioButton id="rb_1y_client_contract" layoutX="334.0" layoutY="249.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="40.0" text="1" />
+            <RadioButton id="rb_2y_client_contract" layoutX="334.0" layoutY="279.0" mnemonicParsing="false" text="2" />
+            <RadioButton id="rb_4y_client_contract" layoutX="334.0" layoutY="308.0" mnemonicParsing="false" text="4" />
+            <Label layoutX="10.0" layoutY="163.0" text="PHONE NUMBER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField id="tf_phone_client_contract" layoutX="221.0" layoutY="162.0" />
+            <Label layoutX="270.0" layoutY="248.0" text="(YEARS)">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</HBox>

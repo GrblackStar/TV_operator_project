@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="40.0" style="-fx-background-color: fed700;">
+         <children>
+            <ImageView fitHeight="133.0" fitWidth="154.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled.png" />
+               </image>
+            </ImageView>
+            <Label id="lb_egn" alignment="CENTER" layoutX="8.0" layoutY="179.0" prefHeight="26.0" prefWidth="138.0" text="EGN" />
+            <Button id="bt_back" layoutX="8.0" layoutY="325.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="138.0" text="BACK">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button id="bt_pay" layoutX="8.0" layoutY="240.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="138.0" text="MAKE PAYMENT">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="436.0">
+         <children>
+            <TableView id="tv_bills" layoutX="2.0" layoutY="9.0" prefHeight="380.0" prefWidth="441.0">
+              <columns>
+                <TableColumn id="col_number" prefWidth="58.2000150680542" text="NUMBER" />
+                <TableColumn id="col_price" prefWidth="97.20000457763672" text="PRICE" />
+                  <TableColumn id="col_invoice" prefWidth="94.79998779296875" text="INVOICE" />
+                  <TableColumn id="col_payment" prefWidth="90.60003662109375" text="PAYMENT" />
+                  <TableColumn id="col_status" prefWidth="100.4000244140625" text="STATUS" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

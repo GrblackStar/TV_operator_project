@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: FED700;">
+         <children>
+            <ImageView fitHeight="157.0" fitWidth="210.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="24.0" layoutY="172.0" text="REGISTER AS">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="200.0" text="CLIENT">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="267.0" text="Contact Support">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="303.0" text="+359 555 - 5555">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="398.0">
+         <children>
+            <Label layoutX="10.0" layoutY="36.0" text="FIRST NAME">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="86.0" text="LAST NAME">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="138.0" text="EGN">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="188.0" text="PHONE NUMBER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="237.0" text="USERNAME">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="286.0" text="PASSWORD">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="258.0" layoutY="345.0" mnemonicParsing="false" text="OK">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button id="bt_back_reg_client" layoutX="80.0" layoutY="345.0" mnemonicParsing="false" text="BACK">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <TextField id="tf_first_name_client" layoutX="214.0" layoutY="32.0" prefHeight="31.0" prefWidth="161.0" />
+            <TextField id="tf_last_name_client" layoutX="214.0" layoutY="82.0" prefHeight="31.0" prefWidth="161.0" />
+            <TextField id="tf_egn_client" layoutX="214.0" layoutY="134.0" prefHeight="31.0" prefWidth="161.0" />
+            <TextField id="tf_phone_client" layoutX="214.0" layoutY="184.0" prefHeight="31.0" prefWidth="161.0" />
+            <TextField id="tf_username_client_reg" layoutX="214.0" layoutY="233.0" prefHeight="31.0" prefWidth="161.0" />
+            <TextField id="tf_password_client_reg" layoutX="214.0" layoutY="282.0" prefHeight="31.0" prefWidth="161.0" />
+         </children></AnchorPane>
+   </children>
+</HBox>
